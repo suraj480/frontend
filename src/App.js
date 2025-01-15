@@ -3,6 +3,8 @@ import './App.css';
 import bg from './img/bg.png'
 import { MainLayout } from './styles/Layout'
 import Orb from './components/Orb/Orb';
+import Navigation from './components/Navigation/Navigation';
+
 const AppStyled = styled.div`
 height:100vh;
 background-image: url(${bg});
@@ -12,7 +14,7 @@ function App() {
   return (
     <AppStyled className="App">
       <MainLayout>
-        <Orb />
+        <Navigation />
       </MainLayout>
     </AppStyled>
   );
